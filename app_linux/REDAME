@@ -1,0 +1,12 @@
+This is some simple software in Python which writes the date to the
+BetaBrite signs under Linux.  Run the "getweather2" scrip from cron every
+20 minutes, and then run "britedate" from inittab.  Adjust the "britedate"
+for the serial port and "getweather2" for the location, it's currently
+pulling the location from Loveland Colorado.
+
+I've been running this code for over 10 years, it works great.
+
+Sean Reifschneider
+<jafo@tummy.com>
+Placed in the public domain
+2008-10-14

@@ -1,0 +1,35 @@
+betabrite - command line utility to program a BetaBrite(tm) LED sign
+
+The program uses the serial port to send instructions using the
+ALPHA(tm) Sign Communications Protocol (ASCP).
+
+You can get more information on LED signs and the ASCP at Adaptive
+Micro Systems: http://www.ams-i.com/index.htm.
+
+The following web sites/pages may prove useful in creating your
+own program(s) or extending this one.
+
+   - AMS Inc's Protocol Document
+     http://www.ams-i.com/Media/97088061.pdf
+
+   - Al's Place
+     http://os9al.com/alsplace/ledsign.html
+
+   - Dennis Hruza - Programming the BetaBrite one line LED sign
+     http://users.neosmart.com/~hruzaden/betabrite/betabrite.htm
+
+   - Walt's LED Sign Page (BetaBrite speficic one) 
+     http://wls.wwco.com/ledsigns/betabrite/
+
+   - Jeff Lawson's Perl module and CGI scripts (ezsign)
+     http://www.bovine.net/~jlawson/coding/ezsign/
+
+   - PW2 Computer Services M$-oriented LED Sign Page
+     http://www.remote-control.net/software/ledsign/
+
+   - Tim's Weather Projects (displaying weather on a BetaBrite)
+     http://homepage.mac.com/tbitson/weather/index.html 
+
+See the INSTALL file for building and installation instructions.
+
+betabrite is free software. See the file COPYING for copying conditions.

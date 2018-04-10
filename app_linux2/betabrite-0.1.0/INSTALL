@@ -1,0 +1,25 @@
+betabrite's limited functionality has been fully tested on Sun/SPARC
+systems with versions 8 & 9 of Solaris with gcc 2.95 and 3. It
+*compiles* on linux x86 (RedHat 7.3) but not fully tested.
+
+Start by executing 'configure', followed by 'make' and 'make install'
+(provided there are no errors generated). Default installs put the
+"betabrite" binary in "/usr/local/bin".
+
+Running "betabrite -h" displays the command line options. 
+
+Example usage:
+
+   betabrite -m "This is some text"
+
+displays "This is some text" on the sign with auto-color
+nd auto-display features. It uses the maximum hold time
+available on the device and stores the message in file "A"
+(see the PDF listed in the README regarding BetaBrite memory
+files).
+
+
+To read a message from a file, the command line would be:
+
+   betabrite -M stufftodisplay.txt
+
